@@ -1,0 +1,393 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Vazirmatn;
+}
+
+.container {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header ul {
+    list-style: none;
+    margin-left: 0px;
+}
+
+header a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+}
+
+.Logo {
+    margin-left: 690px;
+    position: relative;
+}
+
+.Logo p {
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    left: 10px;
+}
+
+.logo-circle {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: rgba(242, 210, 6, 0.805);
+    top: 15px;
+    left: 65px;
+}
+
+.primary-main {
+    width: 980px;
+    height: 500px;
+    position: relative;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 2;
+}
+
+.kiwi-style {
+    position: absolute;
+    top: 170px;
+    left: 110px;
+    z-index: 4;
+    transform: rotate(35deg);
+}
+
+.bottle-style {
+    position: absolute;
+    bottom: 0px;
+    right: 90px;
+    z-index: 3;
+}
+
+.lemon-style {
+    position: absolute;
+    top: 70px;
+    left: 187px;
+    z-index: 6;
+    transform: rotate(-7deg);
+}
+
+.slice-lemon {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    z-index: 2;
+}
+
+.mint {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    z-index: 5;
+}
+
+.donkey {
+    position: absolute;
+    bottom: 1px;
+    right: 3px;
+    width: 980px;
+    display: flex;
+    justify-content: space-between;
+    transform: translateX(35%) translateY(10%);
+    z-index: 1;
+
+}
+
+.donkey h1 {
+    font-family: Lalezar;
+    font-size: 250px;
+    font-weight: 390;
+    line-height: 300px;
+    text-align: center;
+    color: #346E16;
+}
+
+.sentence {
+    position: absolute;
+    top: 45%;
+    right: 100px;
+    color: #00000066;
+    font-size: 20px;
+}
+
+.button-sale {
+    position: absolute;
+    top: 58%;
+    right: 100px;
+    color: white;
+    font-size: 15px;
+    background-color: #040202;
+    border-radius: 30px;
+    padding: 0px 5px;
+    width: 125px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.health-section {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+}
+
+.health-section ul {
+    list-style: none;
+    direction: rtl;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.health-section b {
+    padding-top: 0px;
+    margin-right: 12px;
+}
+
+.health-section p {
+    margin-right: 40px;
+    margin-top: -3px;
+    font-size: 11px;
+    width: 100px;
+    color: #00000066;
+}
+
+.text-flavor {
+    margin: 100px 0px 100px 0px;
+}
+
+.text-flavor p {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400px;
+}
+
+.black-part {
+    width: 100%;
+    height: 350px;
+    border-radius: 90px;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.inside-black {
+    width: 800px;
+    height: 330px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.black-lemon {
+    position: absolute;
+    top: -60px;
+    left: 12px;
+    border-radius: 100%;
+    background-color: #346E16;
+}
+
+.black-melon {
+    position: absolute;
+    top: -60px;
+    left: 45%;
+    border-radius: 100%;
+    background-color: #346E16;
+}
+
+.black-watermelon {
+    position: absolute;
+    top: -60px;
+    left: 85%;
+    border-radius: 100%;
+    background-color: #346E16;
+}
+
+.sec-one {
+    height: 100px;
+}
+
+.sec-one-title {
+    margin-top: 48px;
+    margin-left: 34px;
+    color: white;
+}
+
+.sec-one-text {
+    margin-top: -7px;
+    font-size: 10px;
+    text-align: center;
+    width: 102px;
+    color: white;
+    opacity: 60%;
+    padding-left: 6px;
+}
+
+.two-title {
+    margin-left: 280px;
+}
+
+.three-title {
+    margin-left: 260px;
+}
+
+.sec-two-text {
+    margin-top: -7px;
+    font-size: 10px;
+    text-align: center;
+    width: 102px;
+    color: white;
+    opacity: 60%;
+    padding-left: 6px;
+    margin-left: 250px;
+}
+
+.sec-three-text {
+    margin-top: -7px;
+    font-size: 10px;
+    text-align: center;
+    width: 102px;
+    color: white;
+    opacity: 60%;
+    padding-left: 6px;
+    margin-left: 217px;
+}
+
+.space-pic-title {
+    margin-top: -7px;
+    font-size: 10px;
+    text-align: center;
+    width: 102px;
+    color: white;
+    opacity: 60%;
+    padding-left: 6px;
+}
+
+.peach {
+    position: absolute;
+    bottom: 70px;
+    left: 12px;
+    border-radius: 100%;
+    background-color: #346E16;
+}
+
+.pomegranate {
+    position: absolute;
+    bottom: 70px;
+    left: 45%;
+    border-radius: 100%;
+    background-color: #346E16;
+}
+
+.some-kiwi {
+    position: absolute;
+    bottom: 70px;
+    left: 85%;
+    border-radius: 100%;
+    background-color: #346E16;
+}
+
+.peach-title {
+    color: white;
+    margin-top: 160px;
+    margin-left: 50px;
+    padding-top: 3px;
+}
+
+.peach-text {
+    font-size: 10px;
+    text-align: center;
+    width: 102px;
+    color: white;
+    opacity: 60%;
+    padding-left: 6px;
+    margin-top: -7px;
+}
+
+.pome-title {
+    margin-left: 295px;
+    margin-top: 160px;
+    color: white;
+    padding-top: 3px;
+}
+
+.pome-text {
+    color: white;
+    font-size: 10px;
+    opacity: 60%;
+    margin-left: 250px;
+    width: 102px;
+    padding-left: 6px;
+    text-align: center;
+    margin-top: -7px;
+}
+
+.somekiwi-title {
+    color: white;
+    margin-top: 160px;
+    margin-left: 265px;
+    padding-top: 3px;
+}
+
+.somekiwi-text {
+    color: white;
+    font-size: 10px;
+    opacity: 60%;
+    width: 102px;
+    padding-left: 6px;
+    text-align: center;
+    margin-left: 227px;
+    margin-top: -7px;
+}
+
+.shop-part {
+    margin: 0px 50px 0 50px;
+}
+
+.shop-part-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.shop-part-row img {
+    margin: 0 70px 0 70px;
+}
+
+.shop-part-row p {
+    font-size: 14px;
+    font: bold;
+    margin-top: 0px;
+    margin-left: 37px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 10px;
+    margin: 50px 0 30px 0;
+}
